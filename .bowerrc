@@ -1,0 +1,15 @@
+{
+  "registry": {
+    "search": [
+      "http://admin:admin123@localhost:8081/repository/bower-all"
+    ],
+    "register": "http://admin:admin123@localhost:8081/repository/bower-internal"
+  },
+  "resolvers": [
+    "bower-nexus3-resolver"
+  ],
+  "nexus": {
+    "username": "admin",
+    "password": "admin123"
+  }
+}
