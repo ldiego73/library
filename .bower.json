@@ -1,0 +1,15 @@
+{
+  "name": "library",
+  "main": "dist/lib.js",
+  "license": "MIT",
+  "ignore": [
+    ".npmrc",
+    ".gitignore",
+    ".editorconfig",
+    "package.json",
+    "yarn.lock",
+    "node_modules",
+    "src"
+  ],
+  "keywords": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "library",
+  "version": "1.0.1",
+  "description": "Libreria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ldiego73/library.git"
+  },
+  "author": "Luis Diego",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldiego73/library/issues"
+  },
+  "homepage": "https://github.com/ldiego73/library#readme",
+  "publishConfig": {
+    "registry": "http://localhost:8081/repository/npm-internal/"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
