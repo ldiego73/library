@@ -6,6 +6,8 @@
     ".npmrc",
     ".gitignore",
     ".editorconfig",
+    ".babelrc",
+    ".eslintrc",
     "package.json",
     "webpack.common.js",
     "webpack.dev.js",
