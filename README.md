@@ -126,3 +126,18 @@ Modulo para optimizar la carga de los JS
 ```
 yarn add -D optimize-js-plugin
 ```
+
+# Publicar la libreria
+
+```
+npm publish
+
+git tag -a v1.0.2 -m 'Release 1.0.2'
+git push origin --tags
+```
+
+Solo hacerlo una vez
+
+```
+bower register library https://github.com/ldiego73/library
+```
