@@ -145,7 +145,7 @@ yarn add -D path
 ```
 npm publish
 
-git tag -a v1.0.2 -m 'Release 1.0.2'
+git tag -a v1.0.3 -m 'Release 1.0.3'
 git push origin --tags
 ```
 
