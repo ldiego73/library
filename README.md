@@ -73,6 +73,7 @@ yarn add -D copy-webpack-plugin
 ```
 
 ## 6. html-webpack-plugin
+
 Injecta las dependencias en el HTML
 
 ```
@@ -80,27 +81,46 @@ yarn add -D html-webpack-plugin
 ```
 
 ## 7. uglifyjs-webpack-plugin
+
 Injecta las dependencias en el HTML
 
 ```
 yarn add -D uglifyjs-webpack-plugin
 ```
 
-## 8. clean-webpack-plugin 
+## 8. unminified-webpack-plugin
+
+Genera el archivo no minificado del JS
+
+```
+yarn add -D unminified-webpack-plugin
+```
+
+## 9. optimize-css-assets-webpack-plugin
+
+Genera el archivo minificado CSS
+
+```
+yarn add -D optimize-css-assets-webpack-plugin
+```
+
+## 10. clean-webpack-plugin 
+
 Permite remover o limpiar una carpeta antes de comenzar el build
 
 ```
 yarn add -D clean-webpack-plugin 
 ```
 
-## 9. webpack-bundle-analyzer
+## 11. webpack-bundle-analyzer
+
 Permite analyzar los bundles generados y sus dependencias
 
 ```
 yarn add -D webpack-bundle-analyzer
 ```
 
-## 10. webpack
+## 12. webpack
 
 Development workflow para aplicaciones web
 
@@ -112,19 +132,12 @@ yarn add -D webpack
 yarn add -D webpack-merge
 ```
 
-## 11. path
+## 13. path
 
 Modulo para obtener el path
 
 ```
 yarn add -D path
-```
-## 12. optimize-js-plugin
-
-Modulo para optimizar la carga de los JS
-
-```
-yarn add -D optimize-js-plugin
 ```
 
 # Publicar la libreria

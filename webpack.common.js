@@ -49,9 +49,15 @@ module.exports = {
         loader: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: [{
-            loader: 'css-loader', options: { sourceMap: true }
+            loader: 'css-loader',
+            options: {
+              sourceMap: true
+            }
           }, {
-            loader: 'sass-loader', options: { sourceMap: true }
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true
+            }
           }]
         })
       },
@@ -72,17 +78,17 @@ module.exports = {
    */
   plugins: [
     new CleanWebpackPlugin([root('dist')]),
-    new ExtractTextPlugin('lib.css'),
     new HtmlWebpackPlugin({
-      title: 'Output Management'
+      title: 'Production'
     }),
+    /*
     new BundleAnalyzerPlugin({
       analyzerMode: 'static'
     })
-    /*
     new CopyWebpackPlugin([{
       from: path.resolve(__dirname, 'src/assets'),
       to: 'assets'
-    }]),*/
+    }])
+    */
   ]
 };

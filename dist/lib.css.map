@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/src/lib.css"],"names":[],"mappings":"AAAA;EACE,WAAU,EACX","file":"lib.css","sourcesContent":[".create {\n  color: red;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/src/lib.css"],"sourceRoot":""}
